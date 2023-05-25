@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    height: 80vh;
+    background-image: url(/Images/company.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background div {
+    position: absolute;
+    left: 5%;
+    top: 55%;
+}
+#color-1{
+    height: 25px;
+    background: linear-gradient(to right, yellow 80%, purple 20%);
+}
+section{
+    padding: 40px 0;
+}
+section div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+#footer{
+    padding: 70px 0;
+    border-radius: 5px;
+}
+footer{
+    padding: 40px 40px;
+    background: rgb(20, 2, 35);
+}
+@media screen and (max-width: 450px) {
+    footer #h1{
+        margin-bottom: 20px;
+    }
+    .ul{
+        display: flex;
+    }
+    #c-1{
+        display: grid;
+    }
+    #c-1 input a{
+        place-self: center center;
+    }
+    #c-1 input{
+        width: 100%;
+        margin-bottom: 10px;
+        border: none;
+        outline: none;
+    }
+    #h1{
+        margin-left: 20%;
+    }
+}

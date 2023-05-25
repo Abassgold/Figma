@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: rgb(42, 18, 63);
+    color: white;
+}
+section{
+    padding: 40px 0;
+}
+.background{
+    position: relative;
+    height: 90vh;
+    background-image: url(/Images/innovation.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.background div {
+    position: absolute;
+    left: 5%;
+    top: 55%;
+}
+.background div > h1{
+    font-size: 70px;
+    font-weight: 500;
+}
+
+#color-1{
+    height: 25px;
+    background: linear-gradient(to right, yellow 80%, purple 20%);
+}
+.img-1 img{
+    width: 100%;
+}
+.img-2{
+    position: relative;
+    margin-bottom: 2px;
+}
+.img-2 .img-2-1 > img{
+    object-fit: cover;
+    float: right;
+    right: 0;
+    /* display: block */
+    display: block;
+    width: 80%;
+}
+/* .img-2 .img-2-2{
+    position: static;
+    bottom: 80px;
+    left: 0;
+} */
+#clear{
+    clear: both;
+} 
+@media (max-width: 780px) {
+    h1{
+        font-size: 12px;
+    }
+    .background{
+        height: 50vh;
+    }
+    .background div > h1{
+        font-size: 50px;
+        font-weight: 500
+    }
+    p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .img-2 .img-2-1 > img{
+        display: block;
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    div > h1{
+        font-size: 12px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .img-2 .img-2-1 > img{
+        display: block;
+        width: 100%;
+    }
+    .background{
+        height: 40vh;
+    }
+}
+#footer{
+    padding: 70px 0;
+    border-radius: 5px;
+}
+footer{
+    padding: 40px 40px;
+    background: rgb(20, 2, 35);
+}
+@media screen and (max-width: 450px) {
+    footer #h1{
+        margin-bottom: 20px;
+    }
+    .ul{
+        display: flex;
+    }
+    #c-1{
+        display: grid;
+    }
+    #c-1 input a{
+        place-self: center center;
+    }
+    #c-1 input{
+        width: 100%;
+        margin-bottom: 10px;
+        border: none;
+        outline: none;
+    }
+    #h1{
+        margin-left: 20%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

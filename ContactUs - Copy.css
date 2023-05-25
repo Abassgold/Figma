@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+    height: 80vh;
+    background-image: url(/Images/Q&A.png);
+    background-size: cover;
+    background-position: center;
+}
+.background div {
+    position: absolute;
+    left: 5%;
+    top: 55%;
+}
+#color-1{
+    height: 25px;
+    background: linear-gradient(to right, yellow 80%, purple 20%);
+}
+section{
+    padding: 60px 0;
+}
+form {
+    padding: 60px 0;
+}
+form #form{
+    background: #592EA9;
+}
+#button{
+    outline: none;
+}
+#footer{
+    padding: 70px 0;
+}
+/* footer{
+    padding: 40px 40px;
+    background: rgb(20, 2, 35);
+} */
